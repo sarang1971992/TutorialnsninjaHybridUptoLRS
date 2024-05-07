@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">TutorialsNinja Automation Suite</th></tr>
+<tr><td><a href="#t0">TutorialsNinja Tests</a></td><td class="num">13</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">199,047</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TutorialsNinja Automation Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TutorialsNinja Tests &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.tutorialsninja.testcases.RegisterTest</td><td><a href="#m0">setup</a></td><td rowspan="1">1713961284022</td><td rowspan="1">13052</td></tr><tr><th colspan="4">TutorialsNinja Tests &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.tutorialsninja.testcases.RegisterTest</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1713961297107</td><td rowspan="1">0</td></tr><tr><th colspan="4">TutorialsNinja Tests &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.tutorialsninja.testcases.RegisterTest</td><td><a href="#m2">verifyRegisteredAccountWithoutFillingAnyDetails</a></td><td rowspan="1">1713961297087</td><td rowspan="1">1</td></tr><tr><th colspan="4">TutorialsNinja Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">com.tutorialsninja.testcases.LoginTest</td><td><a href="#m3">verifyLoginWithInvalidEmailandValidPassword</a></td><td rowspan="1">1713961166218</td><td rowspan="1">820</td></tr><tr class="passedeven"><td><a href="#m4">verifyLoginWithoutProvidingCredentials</a></td><td rowspan="1">1713961193248</td><td rowspan="1">1007</td></tr><tr class="passedeven"><td><a href="#m5">verifyWithInvalidCredentials</a></td><td rowspan="1">1713961154229</td><td rowspan="1">993</td></tr><tr class="passedeven"><td><a href="#m6">verifyWithValidCredentials</a></td><td rowspan="3">1713961125599</td><td rowspan="3">1298</td></tr><tr class="passedeven"><td><a href="#m7">verifyWithValidCredentials</a></td></tr><tr class="passedeven"><td><a href="#m8">verifyWithValidCredentials</a></td></tr><tr class="passedeven"><td><a href="#m9">verifyWithValidEmailAndInvalidPassword</a></td><td rowspan="1">1713961180626</td><td rowspan="1">696</td></tr><tr class="passedodd"><td rowspan="3">com.tutorialsninja.testcases.RegisterTest</td><td><a href="#m10">verifyRegisteredAccountWithExistingEmailAddressField</a></td><td rowspan="1">1713961282369</td><td rowspan="1">1263</td></tr><tr class="passedodd"><td><a href="#m11">verifyRegisteringAccountByProvidingAllFields</a></td><td rowspan="1">1713961266552</td><td rowspan="1">1723</td></tr><tr class="passedodd"><td><a href="#m12">verifyRegisteringAnAccountWithMandatoryFields</a></td><td rowspan="1">1713961253447</td><td rowspan="1">1695</td></tr><tr class="passedeven"><td rowspan="3">com.tutorialsninja.testcases.SearchTest</td><td><a href="#m13">verifySearchWithInvalidProduct</a></td><td rowspan="1">1713961219983</td><td rowspan="1">2928</td></tr><tr class="passedeven"><td><a href="#m14">verifySearchWithValidProduct</a></td><td rowspan="1">1713961205344</td><td rowspan="1">3366</td></tr><tr class="passedeven"><td><a href="#m15">verifySearchWithoutAnyProduct</a></td><td rowspan="1">1713961234726</td><td rowspan="1">2264</td></tr></tbody>
+</table>
+<h2>TutorialsNinja Tests</h2><h3 id="m0">com.tutorialsninja.testcases.RegisterTest#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 2.032
+  (Session info: chrome=124.0.6367.78)
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f4cef6e23d831cbb2621cf62d24a5a8f, get {url=https://tutorialsninja.com/demo/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.78, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55351}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55351/devtoo..., se:cdpVersion: 124.0.6367.78, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f4cef6e23d831cbb2621cf62d24a5a8f
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:305)
+	at com.tutorials.ninja.base.Base.initializeBrowser(Base.java:69)
+	at com.tutorialsninja.testcases.RegisterTest.setup(RegisterTest.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.tutorialsninja.testcases.RegisterTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.tutorialsninja.testcases.RegisterTest#verifyRegisteredAccountWithoutFillingAnyDetails</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 2.032
+  (Session info: chrome=124.0.6367.78)
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f4cef6e23d831cbb2621cf62d24a5a8f, get {url=https://tutorialsninja.com/demo/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.78, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55351}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55351/devtoo..., se:cdpVersion: 124.0.6367.78, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f4cef6e23d831cbb2621cf62d24a5a8f
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:305)
+	at com.tutorials.ninja.base.Base.initializeBrowser(Base.java:69)
+	at com.tutorialsninja.testcases.RegisterTest.setup(RegisterTest.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.tutorialsninja.testcases.LoginTest#verifyLoginWithInvalidEmailandValidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.tutorialsninja.testcases.LoginTest#verifyLoginWithoutProvidingCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.tutorialsninja.testcases.LoginTest#verifyWithInvalidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.tutorialsninja.testcases.LoginTest#verifyWithValidCredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>sarangbadgujar4@gmail.com</td><td>Sarang@123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.tutorialsninja.testcases.LoginTest#verifyWithValidCredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>sarangbadgujar4@gmail.com</td><td>Sarang@123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.tutorialsninja.testcases.LoginTest#verifyWithValidCredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>sarangbadgujar4@gmail.com</td><td>Sarang@123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.tutorialsninja.testcases.LoginTest#verifyWithValidEmailAndInvalidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.tutorialsninja.testcases.RegisterTest#verifyRegisteredAccountWithExistingEmailAddressField</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.tutorialsninja.testcases.RegisterTest#verifyRegisteringAccountByProvidingAllFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.tutorialsninja.testcases.RegisterTest#verifyRegisteringAnAccountWithMandatoryFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.tutorialsninja.testcases.SearchTest#verifySearchWithInvalidProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.tutorialsninja.testcases.SearchTest#verifySearchWithValidProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.tutorialsninja.testcases.SearchTest#verifySearchWithoutAnyProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
